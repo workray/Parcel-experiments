@@ -1,0 +1,21 @@
+{
+    "name": "Parcel-experiments",
+    "version": "1.0.0",
+    "description": "Setting up a professional React project with Parcel as a code bundler",
+    "main": "index.js",
+    "repository": "https://github.com/workray/Parcel-experiments.git",
+    "author": "Raymond <workrayz@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0"
+    },
+    "devDependencies": {
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1"
+    },
+    "scripts": {
+        "start": "aprcel index.html"
+    }
+}
